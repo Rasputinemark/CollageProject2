@@ -1,0 +1,8 @@
+Project2_F44076160 : Project2_F44076160.o 
+	g++ -o Project2_F44076160.o 
+
+Project2_F44076160.o : Project2_F44076160.cpp Project2_F44076160.h
+	g++ Project2_F44076160.o Project2_F44076160.cpp Project2_F44076160.h
+
+clean:
+	rm Project2_F44076160*.o
